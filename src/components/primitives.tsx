@@ -14,8 +14,8 @@ import {
   ViewStyle, TextStyle, TextInputProps, ActivityIndicator,
   StyleSheet,
 } from 'react-native';
-import { useTheme } from './ThemeProvider';
-import { resolveFontFamily } from './icons-fonts';
+import { useTheme } from '../ThemeProvider';
+import { resolveFontFamily } from '../icons-fonts';
 import { androidFontWeight, rippleConfig, HIT_SLOP_SM } from '../platform';
 import { webOnly, webCursor, webTransition, webInteractiveStyle, webFocusRing, useHover } from '../web';
 import type { SemanticColors } from '../types';
