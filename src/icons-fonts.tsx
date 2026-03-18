@@ -221,8 +221,6 @@ export function resolveFontFamily(baseFont: string, weight: string): string {
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 
-SplashScreen.preventAutoHideAsync();
-
 interface FontLoaderProps {
   children: React.ReactNode;
   // Pass only the fonts your app's genre needs.
